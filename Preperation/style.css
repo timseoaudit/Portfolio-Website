@@ -25,7 +25,7 @@ html {
 /* Colors */
 
 .aqua {
-    background-color: #00ffff;
+    background-color: #f5f5dc;
     text-align: center;
     border: 1px solid;
     margin: 5px;
@@ -33,20 +33,13 @@ html {
 }
 
 .aquamarine {
-    background-color: #7fffd4;
+    background-color: #282828;
     text-align: center;
     border: 1px solid;
     margin: 5px;
     font-size: 18px;
 }
 
-.lightskyblue {
-    background-color: #87cefa;
-    text-align: center;
-    border: 1px solid;
-    margin: 5px;
-    font-size: 18px;
-}
 #colorh2 {
     
     padding-bottom: 20px;
@@ -78,10 +71,6 @@ html {
 
 .fontbold {
     font-weight: 700;
-}
-.font1{
-    font-family:'Playfair Display', serif;
-
 }
 
 .font2{
