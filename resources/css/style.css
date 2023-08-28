@@ -1,0 +1,72 @@
+html {
+    background-color: #eeeedd;
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+}
+
+h1, h2, h3, nav {
+    color: #282828;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    border-bottom: #000000 1px solid;
+    max-height: 120px;
+}
+
+.navop {
+    display: grid;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    text-align: left;
+    overflow: hidden;
+}
+
+.navop p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.title {
+    display: grid;
+    grid-row: 3fr;
+    grid-column: 3 / 6;
+    font-size: 48px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.navep {
+    grid-column: 7 / 8;
+    
+    overflow: hidden;
+}
+
+.navep p {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    text-align: right;
+}
+
+#aboutme {
+    display: grid;
+    grid-template-columns:   1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
+    grid-template-rows:  0.1fr 1fr;
+}
+
+.paragraph {
+    max-width: 700px;
+    grid-column: 1 /6;
+}
+
+.mepicture {
+    max-width: 700px;
+    max-height: 700px;
+    grid-column: 6 / 8;
+}
+
+.aboutmeh2 {
+   max-height: 40px;
+}
