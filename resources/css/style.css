@@ -82,3 +82,8 @@ header {
 #p1pic {
     color: blue;
 }
+
+#p1pic:hover {
+    color: purple;
+    cursor: pointer;
+}
