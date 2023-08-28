@@ -73,3 +73,12 @@ header {
 .aboutmeh2 {
    max-height: 40px;
 }
+
+#projectpic1 {
+    /* hide the image until the clicks on js listener */
+    display: none;
+}
+
+#p1pic {
+    color: blue;
+}
