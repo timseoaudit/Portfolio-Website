@@ -137,4 +137,12 @@ header {
     cursor: pointer;
 }
 
-/* need to revisit some old css */
+#p3close {
+    display: none;
+    color: blue;
+}
+
+#p3close:hover {
+    color: purple;
+    cursor: pointer;
+}

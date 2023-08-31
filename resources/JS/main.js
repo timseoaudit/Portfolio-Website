@@ -34,3 +34,18 @@ p2Close.onclick = function() {
 }
 
 // Third Project
+const p3Pic = document.getElementById('p3pic');
+let projectPic3 = document.getElementById('projectpic3');
+let p3Close = document.getElementById('p3close');
+
+p3Pic.onclick = function() {
+    projectPic3.style.display = 'block';
+    p3Pic.style.display = 'none';
+    p3Close.style.display = 'block';
+}
+
+p3Close.onclick = function() {
+    projectPic3.style.display = 'none';
+    p3Pic.style.display = 'block';
+    p3Close.style.display = 'none';
+}
