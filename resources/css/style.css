@@ -113,6 +113,16 @@ header {
     cursor: pointer;
 }
 
+#p2close {
+    display: none;
+    color: blue;
+}
+
+#p2close:hover {
+    color: purple;
+    cursor: pointer;
+}
+
 #projectpic3 {
     /* hide the image until the clicks on js listener */
     display: none;
