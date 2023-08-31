@@ -4,11 +4,17 @@ let projectPic1 = document.getElementById('projectpic1');
 
 p1Pic.onclick = function() {
     projectPic1.style.display = 'block';
+    p1Pic.innerHTML = 'Click to close';
+}
+
+p1Pic.onclick = function() {
+    projectPic1.style.display = 'none';
+    p1Pic.innerHTML = 'Picture of the Cool Currents Landing Page';
 }
 
 // Second Project
-const p2Pic = document.getElementById('p1pic');
-let projectPic2 = document.getElementById('projectpic1');
+const p2Pic = document.getElementById('p2pic');
+let projectPic2 = document.getElementById('projectpic2');
 
 p2Pic.onclick = function() {
     projectPic2.style.display = 'block';
