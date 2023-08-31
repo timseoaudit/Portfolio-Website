@@ -7,6 +7,7 @@ html {
 h1, h2, h3, nav {
     color: #282828;
 }
+ /* header */
 
 header {
     display: grid;
@@ -49,7 +50,8 @@ header {
     margin-bottom: 16px;
     text-align: right;
 }
-
+/* Main */
+/* About me */
 #aboutme {
     display: grid;
     grid-template-columns:   1fr 1fr 1fr 1fr 1fr 1fr 1fr ;
@@ -61,7 +63,7 @@ header {
     max-width: 700px;
     grid-column: 1 /6;
 }
-
+/* Picture */
 .mepicture {
     max-width: 700px;
     max-height: 700px;
@@ -74,10 +76,9 @@ header {
 .aboutmeh2 {
    max-height: 40px;
 }
-
+/* Projects */
 #projectpic1 {
-    /* hide the image until the clicks on js listener */
-    display: none;
+    display: none; /* hide the image until the clicks on js listener */
 }
 
 #p1pic {
@@ -100,8 +101,7 @@ header {
 }
 
 #projectpic2 {
-    /* hide the image until the clicks on js listener */
-    display: none;
+     display: none; /* hide the image until the clicks on js listener */
 }
 
 #p2pic {
@@ -124,8 +124,8 @@ header {
 }
 
 #projectpic3 {
-    /* hide the image until the clicks on js listener */
-    display: none;
+    display: none; /* hide the image until the clicks on js listener */
+
 }
 
 #p3pic {
@@ -146,3 +146,4 @@ header {
     color: purple;
     cursor: pointer;
 }
+/* Footer */
