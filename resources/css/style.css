@@ -89,4 +89,32 @@ header {
     cursor: pointer;
 }
 
+#projectpic2 {
+    /* hide the image until the clicks on js listener */
+    display: none;
+}
+
+#p2pic {
+    color: blue;
+}
+
+#p2pic:hover {
+    color: purple;
+    cursor: pointer;
+}
+
+#projectpic3 {
+    /* hide the image until the clicks on js listener */
+    display: none;
+}
+
+#p3pic {
+    color: blue;
+}
+
+#p3pic:hover {
+    color: purple;
+    cursor: pointer;
+}
+
 /* need to revisit some old css */
