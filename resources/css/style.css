@@ -146,4 +146,22 @@ header {
     color: purple;
     cursor: pointer;
 }
+
+/* Skills */
+#skills {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-top: #000000 1px solid;
+    border-bottom: #000000 1px solid;
+}
+.fa-brands {
+    font-size: 48px;
+    color: #282828;
+    margin: 20px 0px 15px 0px;
+}
 /* Footer */
