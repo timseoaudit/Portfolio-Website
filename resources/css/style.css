@@ -170,7 +170,6 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
-    border-top: #000000 1px solid;
     max-height: 120px;
 }
 #copyright p{
