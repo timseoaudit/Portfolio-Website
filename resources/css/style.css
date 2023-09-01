@@ -159,9 +159,32 @@ header {
     border-top: #000000 1px solid;
     border-bottom: #000000 1px solid;
 }
+
 .fa-brands {
     font-size: 48px;
     color: #282828;
     margin: 20px 0px 15px 0px;
 }
 /* Footer */
+#footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    border-top: #000000 1px solid;
+    max-height: 120px;
+}
+#copyright p{
+    display: grid;
+ font-size: 12px;
+ justify-content: left;
+padding: 0px;
+margin: 0px;
+}
+
+#footer-contact {
+    text-align: right;
+}
+
+#github {
+    justify-self: center;
+}
