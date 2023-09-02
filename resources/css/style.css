@@ -195,9 +195,18 @@ margin: 0px;
     margin: 20px 0px 15px 0px;
 }
 
+.fa-solid:hover {
+    color: purple;
+    cursor: pointer;
+}
+
 .contactform {
     padding-bottom: 500px;
     border-bottom: #000000 1px solid;   
+    display: block;
+}
+
+#contactform {
     display: none;
 }
 /* Mobile responsivness */
