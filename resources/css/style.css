@@ -199,3 +199,180 @@ margin: 0px;
     padding-bottom: 500px;
     border-bottom: #000000 1px solid;   
 }
+/* Mobile first */
+@media only screen and (max-width: 600px) {
+    /* header */
+    header {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+        max-height: unset;
+    }
+
+    .navop {
+        grid-column: unset;
+        grid-row: unset;
+        text-align: center;
+        overflow: unset;
+    }
+
+    .navep {
+        grid-column: unset;
+        overflow: unset;
+    }
+
+    /* About me */
+    #aboutme {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .paragraph {
+        max-width: unset;
+        grid-column: unset;
+    }
+
+    .mepicture {
+        max-width: unset;
+        max-height: unset;
+        grid-column: unset;
+        grid-row: unset;
+        margin-top: unset;
+        margin-bottom: unset;
+    }
+
+    /* Projects */
+    #projectpic1,
+    #projectpic2,
+    #projectpic3 {
+        display: hide;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #p1pic,
+    #p2pic,
+    #p3pic {
+        color: blue;
+        cursor: pointer;
+    }
+
+    #p1close,
+    #p2close,
+    #p3close {
+        display: hide;
+        color: blue;
+        cursor: pointer;
+    }
+
+    /* Footer */
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        max-height: unset;
+    }
+
+    .footer-contact {
+        text-align: center;
+    }
+
+    .github {
+        justify-self: unset;
+    }
+
+    /* Contact Page */
+    .contactform {
+        padding-bottom: unset;
+    }
+}
+
+/* Tablet */
+@media only screen and (min-width: 601px) and (max-width: 900px) {
+    /* header */
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+        max-height: unset;
+    }
+
+    .navop {
+        grid-column: unset;
+        grid-row: unset;
+        text-align: center;
+        overflow: unset;
+    }
+
+    .navep {
+        grid-column: unset;
+        overflow: unset;
+    }
+
+    /* About me */
+    #aboutme {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto auto;
+    }
+
+    .paragraph {
+        max-width: unset;
+        grid-column: unset;
+    }
+
+    .mepicture {
+        max-width: unset;
+        max-height: unset;
+        grid-column: unset;
+        grid-row: unset;
+        margin-top: unset;
+        margin-bottom: unset;
+    }
+
+    /* Projects */
+    #projectpic1,
+    #projectpic2,
+    #projectpic3 {
+        display: hide;
+        max-width: 100%;
+        height: auto;
+    }
+
+    #p1pic,
+    #p2pic,
+    #p3pic {
+        color: blue;
+        cursor: pointer;
+    }
+
+    #p1close,
+    #p2close,
+    #p3close {
+        display: hide;
+        color: blue;
+        cursor: pointer;
+    }
+
+    /* Footer */
+    .footer {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto auto auto;
+        max-height: unset;
+    }
+
+    .footer-contact {
+        text-align: center;
+    }
+
+    .github {
+        justify-self: unset;
+    }
+
+    /* Contact Page */
+    .contactform {
+        padding-bottom: unset;
+    }
+}
