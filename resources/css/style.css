@@ -166,13 +166,13 @@ header {
     margin: 20px 0px 15px 0px;
 }
 /* Footer */
-#footer {
+.footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 1fr;
     max-height: 120px;
 }
-#copyright p{
+.copyright p{
     display: grid;
  font-size: 12px;
  justify-content: left;
@@ -180,10 +180,22 @@ padding: 0px;
 margin: 0px;
 }
 
-#footer-contact {
+.footer-contact {
     text-align: right;
 }
 
-#github {
+.github {
     justify-self: center;
+}
+
+/* Contact Page */
+.fa-solid {
+    font-size: 48px;
+    color: #282828;
+    margin: 20px 0px 15px 0px;
+}
+
+.contactform {
+    padding-bottom: 500px;
+    border-bottom: #000000 1px solid;   
 }
