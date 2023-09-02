@@ -209,6 +209,10 @@ margin: 0px;
 #contactform {
     display: none;
 }
+
+.send {
+    font-size: 1.5rem;
+}
 /* Mobile responsivness */
 @media only screen and (max-width: 600px) {
     /* header */
