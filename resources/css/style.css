@@ -198,8 +198,9 @@ margin: 0px;
 .contactform {
     padding-bottom: 500px;
     border-bottom: #000000 1px solid;   
+    display: none;
 }
-/* Mobile first */
+/* Mobile responsivness */
 @media only screen and (max-width: 600px) {
     /* header */
     header {
@@ -246,7 +247,7 @@ margin: 0px;
     #projectpic1,
     #projectpic2,
     #projectpic3 {
-        display: hide;
+        display: none;
         max-width: 100%;
         height: auto;
     }
@@ -261,7 +262,7 @@ margin: 0px;
     #p1close,
     #p2close,
     #p3close {
-        display: hide;
+        display: none;
         color: blue;
         cursor: pointer;
     }
@@ -288,7 +289,7 @@ margin: 0px;
     }
 }
 
-/* Tablet */
+/* Tablet respoivness */
 @media only screen and (min-width: 601px) and (max-width: 900px) {
     /* header */
     header {
@@ -335,7 +336,7 @@ margin: 0px;
     #projectpic1,
     #projectpic2,
     #projectpic3 {
-        display: hide;
+        display: none;
         max-width: 100%;
         height: auto;
     }
@@ -350,7 +351,7 @@ margin: 0px;
     #p1close,
     #p2close,
     #p3close {
-        display: hide;
+        display: none;
         color: blue;
         cursor: pointer;
     }
