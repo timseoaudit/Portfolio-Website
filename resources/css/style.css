@@ -2,6 +2,8 @@ html {
     background-color: #eeeedd;
     font-family: Quicksand, sans-serif;
     font-size: 16px;
+    background-image: url(../Media/pictures/background-alt3.jpg);
+    background-size: 100% 100%;
 }
 
 h1, h2, h3, nav {
@@ -62,6 +64,9 @@ header {
 .paragraph {
     max-width: 700px;
     grid-column: 1 /6;
+    border-radius: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 /* Picture */
 .mepicture {
@@ -71,10 +76,12 @@ header {
     grid-row: 2 / 3;
     margin-top: 20%;
     margin-bottom: 20%;
+    border-radius: 15px;
 }
 
 .aboutmeh2 {
    max-height: 40px;
+
 }
 /* Projects */
 #projectpic1 {
@@ -181,11 +188,11 @@ margin: 0px;
 }
 
 .footer-contact {
-    text-align: right;
+    text-align: center;
 }
 
 .github {
-    justify-self: center;
+    justify-self: right;
 }
 
 /* Contact Page */
